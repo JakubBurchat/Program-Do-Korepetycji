@@ -1,0 +1,236 @@
+body {
+	user-select: none;
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    margin-right: 0px;
+	background-color: cyan;	
+	font-size: 2vw;
+	background-image: url("background.jpg");
+}
+
+#container {
+	margin-left: 15vw;
+	margin-top: 5vh;
+}
+
+nav {
+	position: fixed;
+	margin-top: 5vh;
+}
+
+nav li {
+	margin-top: 1vh;
+	width: 13vw;
+	height: 5vh;
+	background-color: #889988;
+	border-style: solid; 
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li:hover {
+	background-color: #AABBAA;
+	cursor: pointer;
+}
+
+table {
+	width: 80vw;
+}
+
+td, th {
+	border: solid;
+	text-align: center;
+	height: 7.5vh;
+}
+
+th {
+	background-color: #889988;
+}
+
+td {
+	background-color: #AABBAA;
+}
+
+td:hover {
+	background-color: #BBCCBB;
+	cursor: pointer;
+}
+
+.Summary, #generateSummary {
+	padding-top: 0.3vh;
+	margin-top: 0.8vh;
+	list-style-type: none;
+	width: 70vw;
+	height: 5.5vh;
+	border-style: solid;
+	background-color: #CCDDCC;
+	text-align: center;
+}
+
+#generateSummary:hover {
+	cursor: pointer;
+	background-color: #DDEEDD;
+}
+
+.SummaryHours {
+	padding-top: 0.3vh;
+	margin-top: 0.8vh;
+	list-style-type: none;
+	width: 59.85vw;
+	height: 5.5vh;
+	border-style: solid;
+	background-color: #CCDDCC;
+	text-align: center;
+}
+
+
+#showMenu {
+	position: fixed;
+	margin-left: 34vw;
+	margin-top: 7.3vh;
+	width: 30vw;
+	padding-right: 1vw;
+	background-color: #889988;
+	font-size: 2vw;
+	text-align: right;
+}
+
+input {
+	font-size: 2vw;
+	width: 20vw;
+}
+
+.Xbutton {
+	border-style: solid;
+	background-color: #CCDDCC;
+	margin-left: 28vw;
+	width: 2vw;
+	text-align: center;
+}
+
+.Xbutton:hover {
+	background-color: #AABBAA;
+	cursor: pointer;
+}
+
+.submit {
+	border-style: solid;
+	background-color: #CCDDCC;
+	margin-left: 24vw;
+	width: 6vw;
+	text-align: center;
+}
+
+.submit:hover {
+	background-color: #AABBAA;
+	cursor: pointer;
+}
+
+#selectMenu {
+	position: fixed;
+	margin-left: 25vw;
+	margin-top: 17.3vh;
+	width: 45vw;
+	padding-left: 2.5vw;
+	padding-right: 2.5vw;
+	background-color: #889988;
+	font-size: 2vw;
+	text-align: center;
+}
+
+#selectMenu ul {
+	padding: 0;
+	float: left;
+	width: 15vw;
+}
+
+#selectMenu ul li {
+	padding: 0;
+	clear: both;
+	list-style-type: none;
+	border-style: solid;
+	background-color: #CCDDCC;
+	margin-top: 0.8vh;
+	margin-left: 1vw;
+	font-size: 1.5vw;
+}
+
+#selectMenu ul li:hover {
+	background-color: #AABBAA;
+	cursor: pointer;
+}
+
+.XbuttonSelect {
+	border-style: solid;
+	background-color: #CCDDCC;
+	margin-left: 43vw;
+	width: 2vw;
+	text-align: center;
+}
+
+.XbuttonSelect:hover {
+	background-color: #AABBAA;
+	cursor: pointer;
+}
+
+.changeValueButton {
+	border-style: solid;
+	background-color: #CCDDCC;
+	margin-left:  6vw;
+	margin-bottom:  2vh;
+	width: 2vw;
+	float: left;
+}
+
+.changeValueButton:hover {
+	background-color: #AABBAA;
+	cursor: pointer;
+}
+
+.freeLesson {
+	margin-left: 10vw; 
+	margin-bottom: 1vh; 
+	width: 10vw;
+	border-style: solid;
+	background-color: #CCDDCC;
+}
+
+.freeLesson:hover {
+	background-color: #AABBAA;
+	cursor: pointer;
+}
+
+.ButtonMinus {
+	position: absolute;
+	float: left;
+	padding-top: 0.3vh;
+	width: 5vw;
+	height: 5.5vh;
+	border-style: solid;
+	background-color: #CCDDCC;
+	text-align: center;
+	margin-left: 65vw;
+}
+
+.ButtonMinus:hover {
+	cursor: pointer;
+	background-color: #AABBAA;
+}
+
+.ButtonPlus {
+	position: absolute;
+	float: left;
+	padding-top: 0.3vh;
+	width: 5vw;
+	height: 5.5vh;
+	border-style: solid;
+	background-color: #CCDDCC;
+	text-align: center;
+	margin-left: 60vw;
+}
+
+.ButtonPlus:hover {
+	cursor: pointer;
+	background-color: #AABBAA;
+}

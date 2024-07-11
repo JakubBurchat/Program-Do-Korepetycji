@@ -1,0 +1,16 @@
+Students = [ "Jan Nowak", "Anna Maria", "Pan Jan", "Janek Kropidło", "Mariusz Nowak" ]
+
+Days = [ 1, 2, -1, 4, 5, 1, 2, -1, -1, -1, -1, -1, -1, -1, -1, 2, 3, -1, -1, -1, -1, -1, -1, 4, 1 ]
+
+Krd = [ 0, 5, 0, 6, 0 ]
+
+Hours = 0
+
+Price = 40
+
+SummaryDays = [ [ 16, 5, 2023 ] ]
+
+SummaryProfit = [ 2000 ]
+
+SummaryHours = [ 80 ]
+
